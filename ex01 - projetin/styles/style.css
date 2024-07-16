@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: #46669e;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: acumin;
+}
+/*#0E3C77*/
+/*#91A3C1*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: #5a88d6;
+}
+
+a:hover{
+    color: #DCAA5A;
+    transition: 0.3s all;
+}
+
+h1{
+    font-weight: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 10px;
+}
+
+span{
+    color: #DCAA5A;
+}
+
+#span{
+    color: #0E3C77;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img{
+    width: 450px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 50%;
+    padding: 15px;
+    background-color: #DCAA5A;
+    color: rgb(255, 255, 255);
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    height: 20px;
+}
+
+article{
+    margin-left: 25%;
+}

@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(34 , 34, 34);
+    color: white;
+    margin: 25px;
+}
+
+p{
+    margin: 25px;
+}
+
+input{
+    margin: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 200px;
+    border: none
+}
+
+input[type="submit"]{
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+input[type="submit"]:hover{
+    color: white;
+    background-color: darkslategrey;
+}
+
+input[type="reset"]{
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+input[type="reset"]:hover{
+    color: white;
+    background-color: darkslategrey;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}

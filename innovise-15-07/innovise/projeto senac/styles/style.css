@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: Acumin Pro;
+}
+
+header{
+    display: flex;
+    flex-direction: row; /*transforma as listas/link em linha ivés de coluna*/
+    justify-content: space-between;
+    align-items: center;
+    font-family: Acumin Pro;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    font-family: Acumin Pro;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    font-family: Acumin Pro;
+}
+
+a:hover{
+    color: rgb(255, 78, 42);
+    transition: 0.3s all;
+}
+
+#membro{
+    background-color: rgb(255, 78, 42);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#login{
+    background-color: rgb(255, 78, 42);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h1{
+    font-weight: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 10px;
+    font-family: Acumin Pro Bold;
+}
+
+span{
+    color: rgb(255, 78, 42);
+    font-family: Acumin Pro Bold;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Acumin Pro  Italic;
+}
+
+img{
+    width: 400px;
+}
+
+#logo
+{
+    width: 150px;
+}
+
+.image-right {
+    display: block;  /* Ensures the image behaves like a block element */
+    margin-left: 100px;  /* Pushes the image to the right */
+    margin-right: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 50%;
+    padding: 15px;
+    background-color: rgb(232, 44, 6);
+    color: white;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+}
+
+input:hover{
+cursor:auto;
+}

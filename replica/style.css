@@ -1,0 +1,30 @@
+h1{
+    text-align: right;
+    color: blueviolet;
+}
+
+h2{
+    text-align: right;
+    text-decoration: underline dotted blueviolet;
+}
+
+table{
+    background-color: blueviolet;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+p{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    font-weight: 200px;
+    font-size: medium;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-align: center;
+}
